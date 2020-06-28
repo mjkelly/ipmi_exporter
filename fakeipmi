@@ -1,0 +1,3 @@
+#!/bin/bash
+# Prints canned IPMI output -- useful for end-to-end testing of ipmi_exporter.
+cat collector/testdata/ipmi_output2.txt
