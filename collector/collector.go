@@ -140,6 +140,7 @@ func splitOutput(impiOutput []byte) ([][]string, error) {
 func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 	ch <- temperatures
 	ch <- fanspeed
+	ch <- fanspeed_pct
 	ch <- voltages
 	ch <- intrusion
 	ch <- powersupply
@@ -174,6 +175,8 @@ func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
 			push(voltages)
 		case "rpm":
 			push(fanspeed)
+		case "percent":
+			push(fanspeed_pct)
 		case "watts":
 			push(powersupply)
 		case "amps":

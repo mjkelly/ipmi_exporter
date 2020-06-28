@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/lovoo/ipmi_exporter/collector"
+	"github.com/mjkelly/ipmi_exporter/collector"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

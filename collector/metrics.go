@@ -19,6 +19,13 @@ var (
 		nil,
 	)
 
+	fanspeed_pct = prometheus.NewDesc(
+		prometheus.BuildFQName(namespace, "", "fan_speed_percent"),
+		"Fan Speed in Percent",
+		[]string{"fan_percent"},
+		nil,
+	)
+
 	voltages = prometheus.NewDesc(
 		prometheus.BuildFQName(namespace, "", "voltages"),
 		"Contains the voltages from IPMI",

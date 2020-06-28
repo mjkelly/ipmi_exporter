@@ -1,8 +1,13 @@
 # IPMI Exporter
 
-[![GoDoc](https://godoc.org/github.com/lovoo/ipmi_exporter?status.svg)](https://godoc.org/github.com/lovoo/ipmi_exporter) [![Build Status](https://travis-ci.org/lovoo/ipmi_exporter.svg?branch=master)](https://travis-ci.org/lovoo/ipmi_exporter)
+**This is a copy of [lovoo/ipmi_exporter](https://godoc.org/github.com/lovoo/ipmi_exporter).**
+Upstream is no longer maintained (the repo is archived).
 
 IPMI Exporter for prometheus.io, written in Go.
+
+Changes from upstream are:
+- Include fan speeds exported by percentage (under `fan_speed_percent`)
+- Use Go modules, remove `vendor` folder
 
 ## Requirements
 

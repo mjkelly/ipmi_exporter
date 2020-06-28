@@ -1,0 +1,17 @@
+github.com/Sirupsen/logrus v0.0.0-20160829202321-3ec0642a7fb6 h1:Tp6VdyWz8sPuNnRbgf5jqIOV/zoG4mA5nBHtJyFb4Hc=
+github.com/Sirupsen/logrus v0.0.0-20160829202321-3ec0642a7fb6/go.mod h1:rmk17hk6i8ZSAJkSDa7nOxamrG+SP4P0mm+DAvExv4U=
+github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a h1:BtpsbiV638WQZwhA98cEZw2BsbnQJrbd0BI7tsy0W1c=
+github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
+github.com/golang/protobuf v0.0.0-20160930204858-df1d3ca07d2d h1:THgtaeKocdlJrzf0jwy5JNrYAk+YObQ/I5Rdmsvrxto=
+github.com/golang/protobuf v0.0.0-20160930204858-df1d3ca07d2d/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/matttproud/golang_protobuf_extensions v1.0.1 h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=
+github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
+github.com/prometheus/client_golang v0.0.0-20170511141251-42552c195dd3 h1:Ma3YAB2bNqYIpjDkFQ44/V8UMN0fcvwJEOUvv1rT3aQ=
+github.com/prometheus/client_golang v0.0.0-20170511141251-42552c195dd3/go.mod h1:7SWBe2y4D6OKWSNQJUaRYU/AaXPKyh/dDVn+NZz0KFw=
+github.com/prometheus/client_model v0.0.0-20150212101744-fa8ad6fec335 h1:0E/5GnGmzoDCtmzTycjGDWW33H0UBmAhR0h+FC8hWLs=
+github.com/prometheus/client_model v0.0.0-20150212101744-fa8ad6fec335/go.mod h1:MbSGuTsp3dbXC40dX6PRTWyKYBIrTGTE9sqQNg2J8bo=
+github.com/prometheus/common v0.0.0-20170427095455-13ba4ddd0caa h1:WBOqSBZzK9pqPXiewLT2aL9evdTCy4hUefz0h3iJGGI=
+github.com/prometheus/common v0.0.0-20170427095455-13ba4ddd0caa/go.mod h1:daVV7qP5qjZbuso7PdcryaAu0sAZbrN9i7WWcTMWvro=
+github.com/prometheus/procfs v0.0.0-20170502131342-d098ca18df8b h1:NXG7/u0x9fMr3enQ2oO3yLpF4pgT8lWT/Qoy3Qb4r54=
+github.com/prometheus/procfs v0.0.0-20170502131342-d098ca18df8b/go.mod h1:c3At6R/oaqEKCNdg8wHV1ftS6bRYblBhIjjI8uT2IGk=
+golang.org/x/sys v0.0.0-20161012001920-9bb9f0998d48/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
