@@ -3,6 +3,9 @@
 **This is a copy of [lovoo/ipmi_exporter](https://godoc.org/github.com/lovoo/ipmi_exporter).**
 Upstream is no longer maintained (the repo is archived).
 
+Builds of this image are available as `mjkelly/ipmi_export`:
+<https://hub.docker.com/repository/docker/mjkelly/ipmi_exporter>
+
 IPMI Exporter for prometheus.io, written in Go.
 
 Changes from upstream are:
@@ -15,11 +18,27 @@ Changes from upstream are:
 
 ## Docker Usage
 
-    docker run --device=/dev/ipmi0 -d --name ipmi_exporter -p 9289:9289 lovoo/ipmi_exporter:latest
+    docker run --device=/dev/ipmi0 -d --name ipmi_exporter -p 9289:9289 mjkelly/ipmi_exporter:latest
 
 ## Building
 
+To build the binary:
+
     make build
+
+To build a docker image:
+
+    make docker
+
+### Testing
+
+Unit tests aren't fleshed out, they only show that we don't crash when parsing
+IPMI output.
+
+You can use the `fakeipmi` script to test how `ipmi_exporter` will react to
+certain output:
+
+    ./ipmi_exporter -ipmi.path $PWD/fakeipmi
 
 ## Contributing
 
